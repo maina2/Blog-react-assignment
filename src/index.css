@@ -78,7 +78,6 @@ p{
   top: 112px;
   height: 450px;
   width: 300px;
-  background-color: #E3B448;
   border-radius: 5px;
 }
 
@@ -95,7 +94,8 @@ p{
 .highlights >h5  {
   color: white;
   font-size: 15px;
-  position: relative;
+  
+
   
 
 }
@@ -103,5 +103,5 @@ p{
   
   color: white;
   font-size: 15px;
-  position: inherit;
+  
 }

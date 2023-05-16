@@ -26,6 +26,7 @@ function Highlights({ first, description}){
   return(
     <div className="highlights">
       <h5>{first}</h5>
+
       <p>{description}</p>
 
 
@@ -69,8 +70,8 @@ function App() {
       <Blogs />
 
       <Highlights first="Maria" description="Pedeatrics student"/>
-      <Highlights first="Jamiel" description="Orthopedic student"/>
-      <Highlights first="Athman" description="Physiotherapy student"/>
+      {/* <Highlights first="Jamiel" description="Orthopedic student"/>
+      <Highlights first="Athman" description="Physiotherapy student"/> */}
       <Highlights/>
       <Footer />
     </div>
