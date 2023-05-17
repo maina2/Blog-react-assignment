@@ -21,27 +21,22 @@ function Blogs({ name, blog, county }) {
   );
 }
 
-function Highlights({ first, description}){
-
-  return(
+function Highlights({ first, description }) {
+  return (
     <div className="highlights">
       <h5>{first}</h5>
 
       <p>{description}</p>
-
-
     </div>
-
   );
-
 }
 
 function Footer() {
-  return(
+  return (
     <div className="footer">
       <p>Simon maina</p> <input type="date"></input>
     </div>
-  )
+  );
 }
 
 function App() {
@@ -65,14 +60,16 @@ function App() {
         blog="The MEd MESA program is exactly the type of program I was looking for: It could be completed at distance, the course offerings are comprehensive in nature, but the material is presented in a very practical way"
         county="Taita"
       />
-      
 
       <Blogs />
 
-      <Highlights first="Maria" description="Pedeatrics student"/>
+      <Highlights
+        first="Maria"
+        description="Physiology is the study of how the human body works. It describes the chemistry and physics behind basic body functions, from how molecules behave in cells to how systems of organs work together"
+      />
       {/* <Highlights first="Jamiel" description="Orthopedic student"/>
       <Highlights first="Athman" description="Physiotherapy student"/> */}
-      <Highlights/>
+      <Highlights />
       <Footer />
     </div>
   );
