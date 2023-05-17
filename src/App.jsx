@@ -64,7 +64,7 @@ function App() {
       <Blogs />
 
       <Highlights
-        first="Maria"
+        first="HIGHLIGHTS"
         description="Physiology is the study of how the human body works. It describes the chemistry and physics behind basic body functions, from how molecules behave in cells to how systems of organs work together"
       />
       {/* <Highlights first="Jamiel" description="Orthopedic student"/>
@@ -72,6 +72,7 @@ function App() {
       <Highlights />
       <Footer />
     </div>
+
   );
 }
 
