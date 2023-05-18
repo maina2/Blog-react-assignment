@@ -1,0 +1,14 @@
+
+.foot{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+    background-color: #3CA6A6;
+
+    /* padding-left: 50px;
+    padding-right: 0px; */
+
+}

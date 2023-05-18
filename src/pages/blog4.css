@@ -1,0 +1,39 @@
+.dinosaur{
+    height: 50%;
+    width: 70%;
+    padding: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border-radius: 5px;
+    
+
+}
+.image04{
+    width: 40%;
+    border-radius: 5px;
+    background-image: url(./dinosaur.jpg);
+    background-repeat: no-repeat;
+    object-fit: contain;
+
+
+}
+.word04{
+    width: 60%;
+    background-color: yellowgreen;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    
+
+
+}
+
+p{
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}

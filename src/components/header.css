@@ -1,0 +1,16 @@
+
+.header{
+    width:100vw;
+    height: 50px;
+    background-color: #3CA6A6;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .7rem;
+
+    
+}
+a{
+    text-decoration: none;
+}
